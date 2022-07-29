@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sample Webpack project with Typescript",
   "main": "dist/bundle.js",
+  "type": "module",
   "scripts": {
     "build": "webpack"
   },
