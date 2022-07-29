@@ -5,5 +5,5 @@ Sample Webpack project with Typescript
 ## Getting started
 
 ```sh
-npx degit Zitzennuggler/mvc-template [Name of your project]
+npx degit Zitzennuggler/ts-webpack [Name of your project]
 ```
