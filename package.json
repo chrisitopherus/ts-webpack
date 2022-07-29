@@ -1,0 +1,26 @@
+{
+  "name": "ts-webpack",
+  "version": "1.0.0",
+  "description": "Sample Webpack project with Typescript",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisitopherus/ts-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/chrisitopherus/ts-webpack/issues"
+  },
+  "homepage": "https://github.com/chrisitopherus/ts-webpack#readme",
+  "devDependencies": {
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
