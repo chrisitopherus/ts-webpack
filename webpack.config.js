@@ -10,7 +10,7 @@ const config = {
         rules: [
             {
                 test: /\.ts$/,
-                use: ["ts-loader", "babel-loader"],
+                use: ["babel-loader", "ts-loader"],
                 exclude: /node_modules/
             },
             {
