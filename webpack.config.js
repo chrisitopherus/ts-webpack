@@ -18,10 +18,6 @@ const config = {
                 use: ["source-map-loader"],
                 enforce: "pre",
                 exclude: /node_modules/
-            },
-            {
-                test: /\.css$/,
-                use: ["css-loader", "style-loader"]
             }
         ]
     },
