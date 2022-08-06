@@ -11,9 +11,14 @@ const config = {
         rules: [
             {
                 test: /\.ts$/,
-                use: 'ts-loader',
+                use: 'babel-loader',
                 exclude: /node_modules/
-            }
+            },
+            {
+                test: /\.js$/,
+                use: ["source-map-loader"],
+                enforce: "pre"
+            },
         ]
     },
     resolve: {
