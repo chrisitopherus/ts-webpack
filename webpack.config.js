@@ -1,6 +1,5 @@
 import * as path from 'path';
 const config = {
-    mode: 'development',
     entry: './src/index.ts',
     output: {
         filename: 'bundle.js',
@@ -23,8 +22,7 @@ const config = {
     },
     resolve: {
         extensions: ['.ts', '.js']
-    },
-    watch: true
+    }
 };
 
 export default config;
