@@ -16,7 +16,8 @@ const config = {
             {
                 test: /\.js$/,
                 use: ["source-map-loader"],
-                enforce: "pre"
+                enforce: "pre",
+                exclude: /node_modules/
             },
         ]
     },
