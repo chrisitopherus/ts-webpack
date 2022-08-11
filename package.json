@@ -5,7 +5,7 @@
   "main": "dist/bundle.js",
   "type": "module",
   "scripts": {
-    "build": "webpack --mode=production",
+    "build": "webpack --mode=production --no-devtool",
     "dev": "webpack --mode=development",
     "watch": "webpack --watch"
   },
